@@ -1,0 +1,43 @@
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# in profile
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
+brew install python
+pip install virtualenv
+
+brew install rbenv ruby-build
+
+# Add rbenv to bash so that it loads every time you open a terminal
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+
+# Install Ruby
+rbenv install 2.6.1
+rbenv global 2.6.1
+ruby -v
+
+https://www.brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/
+
+
+git config --global color.ui true
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR@EMAIL.com"
+ssh-keygen -t rsa -C "YOUR@EMAIL.com"
+
+gem install rails
+rbenv rehash
+
+brew install postgresql
+brew services start postgresql
+
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+
+brew install tmux
+
+https://danielmiessler.com/blog/first-10-things-new-mac/
+chsh -s $(which zsh)
+https://github.com/sorin-ionescu/prezto
+bindkey -v
+bindkey -M viins ‘jk’ vi-cmd-mode
+
