@@ -1,1 +1,6 @@
+## TBD
+https://micromouseguideforbeginners.wordpress.com
+
+## Completed
 https://www.brianchristner.io/how-a-single-raspberry-pi-made-my-home-network    -faster/
+
