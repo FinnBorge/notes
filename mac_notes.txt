@@ -50,3 +50,5 @@ nvm install node
 #docker
 #spectacle https://github.com/eczarny/spectacle
 
+#macdown
+brew cask install macdown
